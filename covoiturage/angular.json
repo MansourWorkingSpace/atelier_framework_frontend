@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "secondapp": {
+    "covoiturage": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/secondapp",
+            "outputPath": "dist/covoiturage",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "secondapp:build:production"
+              "buildTarget": "covoiturage:build:production"
             },
             "development": {
-              "buildTarget": "secondapp:build:development"
+              "buildTarget": "covoiturage:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "ac499884-0bb9-4c6a-ab59-edf42b9972cd"
+    "analytics": "15168f87-284c-418e-bd5e-3dc29e607569"
   }
 }
