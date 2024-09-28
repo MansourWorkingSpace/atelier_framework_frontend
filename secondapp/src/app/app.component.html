@@ -3,7 +3,7 @@
 <button [disabled]="btn">submit</button><!--property binding-->
 <button (click) = "eventTest()">cliquez ici</button>
 <p>{{message}}</p><!--event binding-->
-<div>           
+        
     <h1>{{title}}</h1>
     <input type="text" (input)="onInput($event)" [value]="userText" placeholder="ekteb lena">
     <p>tatla3 lena : {{userText}}</p>
@@ -11,7 +11,11 @@
     <p>{{text}}</p>
     <button (click)="image=!image">click me</button>
     <img src="https://stickerdeco.fr/wp-content/uploads/2023/08/sticker-luffy-gear-5-000-1.jpg" alt="" *ngIf="image">
-</div>
+    <h1 *ngFor="let item of cars">{{item}}</h1>
+    <div *ngFor="let item of students">
+        <h1>{{item.esm}}</h1>
+        <p>{{item.age}}</p>
+    </div>
 
 
 

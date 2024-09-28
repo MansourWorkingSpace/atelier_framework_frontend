@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { url } from 'node:inspector';
 import { FormsModule } from '@angular/forms';//import forms module
-import { NgIf } from '@angular/common';
+import { NgFor, NgIf } from '@angular/common';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,FormsModule,NgIf],
+  imports: [RouterOutlet,FormsModule,NgIf,NgFor],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -29,5 +29,7 @@ export class AppComponent {
   text:string='';
   imgurl=""
   image:boolean=true;
+  cars=['bmw','toyota','audi','mercedes'];
+  students=[{esm:'amine',age:89},{esm:'salim',age:40},]
 
 }
