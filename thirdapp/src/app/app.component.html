@@ -1,0 +1,43 @@
+<div class="container">
+  <h1 class="text-center mt-5 text-light">hero app</h1>
+  <div class="row mt-5">
+    <div class="col-3">
+      <input [(ngModel)]="hero.name" placeholder="name" type="text" class="form-control m-1">
+    </div>
+    <div class="col-3">
+      <input [(ngModel)]="hero.power" placeholder="power" type="text" class="form-control m-1">
+    </div>
+    <div class="col-3">
+      <input [(ngModel)]="hero.imageUrl" placeholder="imageUrl" type="text" class="form-control m-1">
+    </div>
+    <div class="col-3">
+      <button (click)="ajout()" (click)="creation()" class="btn form-control m-1 text-light">create</button>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="card p-1">
+          <div class="card-image">
+            <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwCKjwzsINBj90RjQ4XQAZyCxk81p_5uyXfg&s" alt="">
+          </div>
+          <div class="card-body">
+            <h2>Monkey D Luffy</h2>
+            <p>30.000.000</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card p-1">
+          <div class="card-image">
+            <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwCKjwzsINBj90RjQ4XQAZyCxk81p_5uyXfg&s" alt="">
+          </div>
+          <div class="card-body">
+            <h2>Monkey D Luffy</h2>
+            <p>30.000.000</p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<img src="assets/logo.png" alt="">

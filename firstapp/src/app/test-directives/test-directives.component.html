@@ -1,0 +1,28 @@
+<div *ngIf="1>0">affiche la div</div>
+<div *ngIf="1<0">n'affiche pas la div</div>
+
+
+<div *ngIf="afficherNom;then thenBlock; else elseBlock"></div>
+<ng-template #thenBlock>
+    Ali Mansour
+</ng-template>
+<ng-template #elseBlock>
+    *******
+</ng-template>
+
+
+<p>liste des couleurs</p>
+<div *ngFor="let c of couleurs">
+    {{c}}
+</div>
+
+<div [ngSwitch]="couleur">
+    <div *ngSwitchCase="'rouge'">couleur rouge</div>
+    <div *ngSwitchCase="'bleu'">couleur bleu</div>
+    <div *ngSwitchCase="'vert'">couleur vert</div>
+    <div *ngSwitchDefault>choisir une couleur</div>
+</div>
+
+
+<div [ngStyle]="styleCorrect">reponse</div>
+

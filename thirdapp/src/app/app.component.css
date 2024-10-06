@@ -1,0 +1,17 @@
+button{
+    background-color:blueviolet;
+}
+.card-image{
+    margin:auto;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.card{
+    height: 400px;
+    margin-top: 20px;
+}

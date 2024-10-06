@@ -1,5 +1,5 @@
 {
-  "name": "covoiturage",
+  "name": "thirdapp",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:covoiturage": "node dist/covoiturage/server/server.mjs"
+    "serve:ssr:thirdapp": "node dist/thirdapp/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -15,7 +15,6 @@
     "@angular/common": "^18.2.0",
     "@angular/compiler": "^18.2.0",
     "@angular/core": "^18.2.0",
-    "@angular/fire": "^18.0.1",
     "@angular/forms": "^18.2.0",
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
