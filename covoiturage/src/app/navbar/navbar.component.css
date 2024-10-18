@@ -26,10 +26,9 @@ li{
   /* Effet hover pour Connexion */
   .btn-connexion:hover {
     background-color: #f1f1f1; /* Gris clair au survol */
-    color: black;
   }
   .btn-inscription {
-    background-color: blue; /* Blanc pour Inscription */
+    background-color: #10375C; /* Blanc pour Inscription */
     color: white;
   }
   
