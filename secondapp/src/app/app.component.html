@@ -1,14 +1,14 @@
-<!-- <h1>bonjour {{title}}</h1>string interpolation -->
-<!-- <img [src]="imageUrl" alt="" width="200"> -->
-<!-- <button [disabled]="btn">submit</button>property binding -->
-<!-- <button (click) = "eventTest()">cliquez ici</button> -->
-<p>{{message}}</p><!--event binding-->
+<!--<h1>bonjour {{title}}</h1>
+<img [src]="imageUrl" alt="" width="200">
+<button [disabled]="btn">submit</button>
+<button (click) = "eventTest()">cliquez ici</button>
+<p>{{message}}</p>-->
 
  <h1>{{title}}</h1>
     <input type="text" (input)="onInput($event)" [value]="userText" placeholder="ekteb lena">
     <p>tatla3 lena : {{userText}}</p>
-    <input type="text" [(ngModel)]="ffff">
-    <p>{{ffff}}</p>
+    <input type="text" [(ngModel)]="mot">
+    <p>{{mot}}</p>
     <button (click)="image=!image">click me</button>
     <img src="https://stickerdeco.fr/wp-content/uploads/2023/08/sticker-luffy-gear-5-000-1.jpg" alt="" *ngIf="image">
     <h1 *ngFor="let item of cars">{{item}}</h1>
@@ -18,8 +18,8 @@
     </div>
 
 <label for="name">nom: </label>
-<input [(ngModel)]="ffff" type="text" id="" />
+<input [(ngModel)]="mot" type="text" id="" />
 <button (click)="add()">add</button>
 <div *ngFor="let c of liste; let i = index">
-  <p>{{ i }}: {{ c }}</p>
+  <p>{{ i+1 }}: {{ c }}</p>
 </div>

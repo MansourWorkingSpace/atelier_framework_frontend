@@ -5,3 +5,33 @@ img{
 li{
     margin-right: 30px;
 }
+/* Styles pour les liens */
+.btn-connexion, .btn-inscription {
+    text-decoration: none; /* Enlever la sous-ligne par défaut */
+    padding: 8px 16px; /* Espace interne pour que les liens ressemblent à des boutons */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 14px;
+    font-weight: bold; /* Texte en gras pour un impact visuel */
+    margin-left: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Style du bouton Connexion */
+  .btn-connexion {
+    background-color: white; /* Blanc pour Connexion */
+    color: black; /* Texte noir */
+    border: 2px solid #ccc; /* Bordure grise */
+  }
+  /* Effet hover pour Connexion */
+  .btn-connexion:hover {
+    background-color: #f1f1f1; /* Gris clair au survol */
+    color: black;
+  }
+  .btn-inscription {
+    background-color: blue; /* Blanc pour Inscription */
+    color: white;
+  }
+  
+  /* Effet hover pour Inscription */
+  

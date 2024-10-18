@@ -35,8 +35,8 @@ export class AppComponent {
     { esm: 'salim', age: 40 },
   ];
   liste: string[] = [];
-  ffff = '';
+ mot= '';
   add() {
-    this.liste.push(this.ffff);
+    this.liste.push(this.mot);
   }
 }

@@ -1,0 +1,14 @@
+
+div.container{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 76px);
+    width: 100%;
+
+}
+/*input{
+    width: 320px;
+}
+h4{
+    color: white;
+}*/

@@ -1,6 +1,5 @@
 div{
     background-repeat: no-repeat ;
-    background-size: cover;
     background-size: 100% 100%;
     background-position: center;
     background-image: url('/assets/bg_image.avif');

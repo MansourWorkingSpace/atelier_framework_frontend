@@ -1,0 +1,47 @@
+<label for="">Nom: </label>
+<input type="text" [(ngModel)]="name.esm">
+<button [disabled]="!name.esm" (click)="addName()">
+  ajouter
+</button>
+<br>
+<br>
+<table border="1" *ngIf="names.length>0">
+  <thead>
+    <th>
+      ID
+    </th>
+    <th>
+      NOM
+    </th>
+    <th>
+      ACTIONS
+    </th>
+  </thead>
+  <tr *ngFor="let element of names;let i=index">
+    <td >
+      {{element.id}}
+    </td>
+    <td >
+      {{element.esm}}
+    </td>
+    <td >
+      <button (click)="delete(i)">
+        🗑      
+      </button>
+      <button (click)="modifier(i)">
+        ✏
+      </button>
+      <button (click)="details(i)">
+        👁
+      </button>
+    </td>
+  </tr>
+</table>
+<div>
+  <p>
+    name:
+    {{detail.esm}}
+    id:
+    {{detail.id}}
+  </p>
+</div>
