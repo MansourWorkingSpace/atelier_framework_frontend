@@ -10,11 +10,5 @@ import { RouterLink } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  bg_color={'background-color':'white'};
-  bg_inscri(){
-    this.bg_color={'background-color':'#F4F6FF'};
-  }
-  bg_accueil(){
-    this.bg_color={'background-color':'white'};
-  }
+  
 }
