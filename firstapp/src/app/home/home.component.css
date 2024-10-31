@@ -1,0 +1,17 @@
+label{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+button{
+    background-color: #D6C0B3;
+    color:#E4E0E1;
+}
+table{
+    border:#493628 solid 2px;
+    margin-left: 20px;
+}
+th,td{
+   color: #E4E0E1;
+   border:#493628 solid 2px;
+   background-color: #D6C0B3 ;
+}

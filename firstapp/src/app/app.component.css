@@ -4,16 +4,15 @@
   gap: 0px;
 }
 .nav {
-  background-color: aqua;
+  background-color: #D6C0B3;
   height: calc(100vh - 140px);
   width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .root{
     height: calc(100vh - 140px);
-    background-color:aquamarine;
+    background-color:#E4E0E1;
     width: calc(100vw - 300px);
 }

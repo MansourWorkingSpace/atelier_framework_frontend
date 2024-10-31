@@ -1,7 +1,18 @@
-div{
-    background-color:blue;
-    color: white;
-    text-align: center;
+nav{
+    background-color: #493628;
     height: 70px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+  display: flex;
+  gap: 20px;
+}
+a{
+    color: #E4E0E1;
+}
+button{
+    color: #E4E0E1;
+    background-color: #E4E0E1;
 }
