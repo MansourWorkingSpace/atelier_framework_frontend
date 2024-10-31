@@ -44,7 +44,7 @@ input[type="submit"]{
 }
 input:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: #10375C;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
 }
 input[type="submit"]:hover{

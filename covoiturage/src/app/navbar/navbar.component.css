@@ -15,6 +15,7 @@ li{
     margin-left: 10px;
     display: inline-block;
     transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
   }
   
   .btn-connexion {
