@@ -17,7 +17,9 @@ export class HeaderComponent {
  checked=false;
   kaberheader(){
     if(!(this.checked)){
-      this.height={'height' : '200px'};
+      this.height={'height' : '200px'
+        
+      };
       this.checked=true;
     }else{
       this.height={'height' : '70px'};
