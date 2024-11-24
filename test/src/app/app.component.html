@@ -1,0 +1,18 @@
+<table ngClass="{{clas}}">
+  <thead>
+    <th>
+      ID
+    </th>
+    <th>
+      NOM
+    </th>
+    <th>
+      SALARY
+    </th>
+  </thead>
+  <tr *ngFor="let user of users">
+      <td>{{user.id}}</td>
+      <td>{{user.name}}</td>
+      <td>{{user.salary}}</td>
+  </tr>
+</table>
