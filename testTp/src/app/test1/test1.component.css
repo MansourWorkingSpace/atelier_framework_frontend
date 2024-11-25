@@ -1,0 +1,16 @@
+td {
+    border:   white;
+  }
+  th {
+    border:   black;
+  }
+  .rouge{
+    background-color: red;
+    color: white;
+  }
+  .orange{
+      background-color: orange;
+  }
+  .jaune{
+      background-color: yellow;
+  }

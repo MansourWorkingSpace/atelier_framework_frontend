@@ -1,0 +1,23 @@
+<table>
+    <tr>
+      <th>ID</th>
+      <th>Titre</th>
+      <th>Description</th>
+      <th>Prix</th>
+      <th>Disponible</th>
+      <th>Quantité</th>
+    </tr>
+    <tr *ngFor="let book of books"  [ngClass]="clas(book)">
+      <td>{{book.id}}</td>
+      <td>{{book.titre}}</td>
+      <td>{{book.description}}</td>
+      <td>{{book.prix}}</td>
+      @if(book.dispo){
+        <td>🟢 Disponible</td>
+      }@else{
+        <td>🔴 Non disponible</td>
+      }
+      <td>{{book.qte}}</td>
+    </tr>
+  </table>
+  
