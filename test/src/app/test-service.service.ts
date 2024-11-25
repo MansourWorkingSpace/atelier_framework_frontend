@@ -10,9 +10,9 @@ export class TestServiceService {
       {id:0,name:'ali',salary:1800},
       {id:1,name:'Salah',salary:1600},
       {id:2,name:'Ahmed',salary:2800},
-      {id:3,name:'mohamed',salary:3900},
+      /*{id:3,name:'mohamed',salary:3900},
       {id:4,name:'Monji',salary:5800},
-      {id:5,name:'Slim',salary:1200},
+      {id:5,name:'Slim',salary:1200},*/
     ];
   }
 }

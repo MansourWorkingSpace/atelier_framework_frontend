@@ -15,14 +15,17 @@ export class AppComponent implements OnInit{
   users:any;
   length=0;
   clas='';
+  styl={'background-color' : 'blue'};
   constructor(private test : TestServiceService){}
   ngOnInit(): void {
     this.users=this.test.users;
     this.length=this.users.length;
     if(this.length>5){
       this.clas='red';
+      this.styl={'background-color' : 'blue'};
     }else{
       this.clas='blue';
+      this.styl={'background-color' : 'red'};
     }
   }
   
